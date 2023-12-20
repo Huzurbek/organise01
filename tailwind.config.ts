@@ -26,6 +26,15 @@ const config: Config = {
         },
       },
     },
+    backgroundImage: {
+      order: 'url(/order/bg.png)',
+      header: 'url(/main/header.png)',
+      template: 'url(/templates/templates.png)',
+      galary1: 'url(/main/galaryCard1.png)',
+      galary2: 'url(/main/galaryCard2.png)',
+      galary3: 'url(/main/galaryCard3.png)',
+      galary4: 'url(/main/galaryCard4.png)',
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 };
