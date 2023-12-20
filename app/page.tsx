@@ -11,10 +11,7 @@ export default function Page() {
         <h2>Youtube Content</h2>
       </div>
 
-      <div
-        className="mx-auto max-w-[1340px]"
-        style={{ border: '2px solid red' }}
-      >
+      <div className="mx-auto max-w-[1340px]">
         <div className="mb-9 flex flex-col items-center">
           <p className="mb-[24px] text-center text-[56px] font-semibold">
             Featured Templates
